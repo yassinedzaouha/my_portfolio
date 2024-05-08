@@ -17,7 +17,9 @@
 }
 
 .my_imgg {
-    border: 3px solid #81bafe;
+    border: 5px solid;
+    border-image: -webkit-linear-gradient(0deg, #766dff, #88f3ff) 1;
+    background: -webkit-linear-gradient(0deg, #766dff, #88f3ff);
     width: 190px;
     border-radius: 80px;
 }
@@ -179,4 +181,13 @@ section.resume-section h2 ,.work{
 
 .home_banner_area .banner_inner .banner_content .media .d-flex img {
     width: 70%;
-    }
+}
+
+.git_link {
+    color: #fafafa;
+}
+
+.kkk{
+    margin-left: 40px;
+}
+
