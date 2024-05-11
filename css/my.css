@@ -191,3 +191,34 @@ section.resume-section h2 ,.work{
     margin-left: 40px;
 }
 
+@media (min-width: 1200px) {
+    .container {
+    max-width: 1170px; }
+}
+
+@media screen and (max-width: 768px) {
+    .banner_innerr {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .home_banner_area .box_1300 {
+        width: 90%;
+        margin-left: 25px;
+    }
+
+    .banner_content,
+    .my_img {
+        max-width: 100%;
+        margin-bottom: 30px;
+        margin-left: 10px;
+    }
+
+    .myinfr{
+        margin-left: 20%;
+    }
+
+    .tabs_inner .nav.nav-tabs {
+        margin-bottom: 75px;
+    }
+}
