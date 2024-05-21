@@ -191,6 +191,10 @@ section.resume-section h2 ,.work{
     margin-left: 40px;
 }
 
+.kkk .pad {
+    margin-right: 10px;
+}
+
 @media (min-width: 1200px) {
     .container {
     max-width: 1170px; }
